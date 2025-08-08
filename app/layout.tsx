@@ -13,8 +13,8 @@ export const metadata: Metadata = {
     "Leading maritime solutions provider with global presence. Freight forwarding, customs clearance, container shipping, and warehousing services.",
   generator: 'v0.dev',
   icons: {
-    icon: '/marinelogo.png',
-    apple: '/marinelogo.png',
+    icon: '/logo.png',
+    apple: '/logo.png',
   },
 }
 

@@ -26,7 +26,7 @@ export function Navigation() {
           <Link href="/" className="flex items-center space-x-3">
             <div className="relative w-12 h-12">
               <Image
-                src="/marinelogo.png"
+                src="/logo.png"
                 alt="Royal Atlas Marine Logo"
                 fill
                 className="object-contain"

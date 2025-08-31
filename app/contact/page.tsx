@@ -74,6 +74,13 @@ export default function ContactPage() {
                       className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                     >
                       <option value="">Select a service</option>
+                      <option value="ship-registry-consultancy">Ship Registry Consultancy</option>
+                      <option value="crew-manning-training">Crew Manning & Training</option>
+                      <option value="technical-management">Technical Management</option>
+                      <option value="offshore-support">Offshore Industry Support</option>
+                      <option value="maritime-training">Maritime Training Programs</option>
+                      <option value="strategic-investment">Strategic Investment Services</option>
+                      <option value="export-facilitation">Export Facilitation</option>
                       <option value="freight-forwarding">Freight Forwarding</option>
                       <option value="customs-clearance">Customs Clearance</option>
                       <option value="container-shipping">Container Shipping</option>
@@ -102,7 +109,7 @@ export default function ContactPage() {
                 <CardHeader>
                   <div className="flex items-center space-x-3">
                     <MapPin className="h-6 w-6 text-blue-600" />
-                    <CardTitle className="text-xl text-slate-900">India (Headquarters)</CardTitle>
+                    <CardTitle className="text-xl text-slate-900">Royal Atlas Group</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
@@ -110,19 +117,15 @@ export default function ContactPage() {
                     <p>
                       <strong>Address:</strong>
                       <br />
-                      No. 63/1, 1st Floor, K.S. Arcade,
+                      1st Floor, K/S Arcade, Above Med Plus
                       <br />
-                      Virat Nagar Main Road, Bommanahalli,
+                      Bommanahalli, Bengaluru
                       <br />
-                      Bangalore - 560068, India
+                      Karnataka 560068, India
                     </p>
                     <div className="flex items-center space-x-2">
                       <Phone className="h-4 w-4 text-blue-600" />
-                      <span>+91 9193990000</span>
-                    </div>
-                    <div className="flex items-center space-x-2">
-                      <Phone className="h-4 w-4 text-blue-600" />
-                      <span>08041530315 (Landline)</span>
+                      <span>+91 939900000</span>
                     </div>
                     <div className="flex items-start space-x-2">
                       <Mail className="h-4 w-4 text-blue-600 mt-0.5" />
@@ -152,6 +155,30 @@ export default function ContactPage() {
                 <CardContent>
                   <div className="space-y-4">
                     <div>
+                      <h4 className="font-semibold text-slate-900">Trivandrum, Kerala</h4>
+                      <p className="text-sm text-gray-600">
+                        Opp. Neyyar Residency (Old Hotel Silver Dew)
+                        <br />
+                        NMC.40/527(Old.Xll/477D), Keezhekulam Lane
+                        <br />
+                        Alummoodu, Neyyattinkara, Trivandrum - 695121
+                        <br />
+                        Tel: +91 9538359000
+                      </p>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-slate-900">Mumbai, Maharashtra</h4>
+                      <p className="text-sm text-gray-600">
+                        Shop No-5, Ground Floor, 484/B
+                        <br />
+                        Munna Villa CHS Ltd, Gabriel Street
+                        <br />
+                        Near Canosa Primary School, Mahim West - 400016
+                        <br />
+                        Tel: +91 9483629000
+                      </p>
+                    </div>
+                    <div>
                       <h4 className="font-semibold text-slate-900">Kuwait</h4>
                       <p className="text-sm text-gray-600">
                         Al Dabbous Mall, Behind Crown Plaza
@@ -160,7 +187,7 @@ export default function ContactPage() {
                         <br />
                         Farwaniyah - 81005, Kuwait
                         <br />
-                        Tel: +965 565 77000
+                        Tel: +965 5657000
                       </p>
                     </div>
                     <div>
@@ -176,22 +203,43 @@ export default function ContactPage() {
                     <div>
                       <h4 className="font-semibold text-slate-900">Singapore</h4>
                       <p className="text-sm text-gray-600">
-                        STI Motor Centre, Unit 301, 3rd Floor
+                        STI Motor Centre, 19 Lorong 8
                         <br />
-                        19 Lorong 8, Toa Payoh
+                        Toa Payoh, Singapore
                         <br />
-                        Singapore 589822
+                        Tel: +65 9423 2850
+                      </p>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-slate-900">United Kingdom</h4>
+                      <p className="text-sm text-gray-600">
+                        54A High Street, Deal, Kent
                         <br />
-                        Tel: +65 8169 7138
+                        CT14 6HE, United Kingdom
+                        <br />
+                        Tel: +44 771 715 1977
+                      </p>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-slate-900">Bahrain</h4>
+                      <p className="text-sm text-gray-600">
+                        Shop No: 21, Building 1007, Street 1821
+                        <br />
+                        Block 718, Zayed Town, Bahrain
+                        <br />
+                        Tel: +973 3234 3592
                       </p>
                     </div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Dubai, UAE</h4>
                       <p className="text-sm text-gray-600">
-                        8th Floor, Al Moosa Tower 2<br />
-                        Sheikh Zayed Road, Dubai, UAE
+                        Montana Building, Office 110-113
                         <br />
-                        Tel: +971 545 498 293, +971 545 439 263
+                        Zee Beel Road, St. Al Karama
+                        <br />
+                        Dubai, United Arab Emirates
+                        <br />
+                        Tel: +971 545498293
                         <br />
                         Email: royalatlasmarine.dxb@gmail.com
                       </p>
@@ -240,11 +288,11 @@ export default function ContactPage() {
                 <MapPin className="h-12 w-12 mx-auto mb-4" />
                 <p className="text-lg font-medium">Interactive Map</p>
                 <p className="text-sm">
-                  No. 63/1, 1st Floor, K.S. Arcade,
+                  1st Floor, K/S Arcade, Above Med Plus
                   <br />
-                  Virat Nagar Main Road, Bommanahalli,
+                  Bommanahalli, Bengaluru
                   <br />
-                  Bangalore - 560068, India
+                  Karnataka 560068, India
                 </p>
               </div>
             </div>

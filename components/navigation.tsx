@@ -19,23 +19,19 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 shadow-sm">
       <div className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-between">
+        <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-3">
-            <div className="relative w-12 h-12">
+          <Link href="/" className="flex items-center space-x-4 group">
+            <div className="relative w-16 h-16 p-2 bg-blue-600/10 rounded-full border border-blue-200 group-hover:bg-blue-600/20 transition-colors">
               <Image
                 src="/logo.png"
                 alt="Royal Atlas Marine Logo"
                 fill
-                className="object-contain"
+                className="object-contain p-1"
                 priority
               />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-lg text-slate-900">Royal Atlas Marine</span>
-              <span className="text-xs text-blue-600 font-medium"></span>
             </div>
           </Link>
 
@@ -88,9 +84,9 @@ export function Navigation() {
               <NavigationMenuItem>
                 <NavigationMenuTrigger>Maritime Services</NavigationMenuTrigger>
                 <NavigationMenuContent>
-                  <div className="grid w-[800px] grid-cols-3 gap-3 p-4">
+                  <div className="grid w-[900px] grid-cols-4 gap-3 p-4">
                     <div className="space-y-3">
-                      <h4 className="font-medium text-sm text-slate-900 border-b pb-2">Shipping & Logistics</h4>
+                      <h4 className="font-medium text-sm text-slate-900 border-b pb-2">Core Services</h4>
                       <NavigationMenuLink asChild>
                         <Link
                           href="/services/freight-forwarding"
@@ -117,18 +113,10 @@ export function Navigation() {
                       </NavigationMenuLink>
                       <NavigationMenuLink asChild>
                         <Link
-                          href="/services/bulk-cargo"
+                          href="/services/warehousing"
                           className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                         >
-                          <div className="text-sm font-medium">Bulk Cargo</div>
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link
-                          href="/services/project-cargo"
-                          className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                        >
-                          <div className="text-sm font-medium">Project Cargo</div>
+                          <div className="text-sm font-medium">Warehousing</div>
                         </Link>
                       </NavigationMenuLink>
                     </div>
@@ -136,18 +124,18 @@ export function Navigation() {
                       <h4 className="font-medium text-sm text-slate-900 border-b pb-2">Ship Management</h4>
                       <NavigationMenuLink asChild>
                         <Link
-                          href="/services/ship-management"
+                          href="/services/ship-registry"
                           className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                         >
-                          <div className="text-sm font-medium">Full Ship Management</div>
+                          <div className="text-sm font-medium">Ship Registry Consultancy</div>
                         </Link>
                       </NavigationMenuLink>
                       <NavigationMenuLink asChild>
                         <Link
-                          href="/services/crew-management"
+                          href="/services/crew-manning"
                           className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                         >
-                          <div className="text-sm font-medium">Crew Management</div>
+                          <div className="text-sm font-medium">Crew Manning & Training</div>
                         </Link>
                       </NavigationMenuLink>
                       <NavigationMenuLink asChild>
@@ -156,14 +144,6 @@ export function Navigation() {
                           className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                         >
                           <div className="text-sm font-medium">Technical Management</div>
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link
-                          href="/services/commercial-management"
-                          className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                        >
-                          <div className="text-sm font-medium">Commercial Management</div>
                         </Link>
                       </NavigationMenuLink>
                       <NavigationMenuLink asChild>
@@ -179,18 +159,18 @@ export function Navigation() {
                       <h4 className="font-medium text-sm text-slate-900 border-b pb-2">Specialized Services</h4>
                       <NavigationMenuLink asChild>
                         <Link
-                          href="/services/ship-registry"
+                          href="/services/offshore-support"
                           className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                         >
-                          <div className="text-sm font-medium">Ship Registry Services</div>
+                          <div className="text-sm font-medium">Offshore Industry Support</div>
                         </Link>
                       </NavigationMenuLink>
                       <NavigationMenuLink asChild>
                         <Link
-                          href="/services/flag-state-services"
+                          href="/services/maritime-training"
                           className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                         >
-                          <div className="text-sm font-medium">Flag State Services</div>
+                          <div className="text-sm font-medium">Maritime Training</div>
                         </Link>
                       </NavigationMenuLink>
                       <NavigationMenuLink asChild>
@@ -203,18 +183,45 @@ export function Navigation() {
                       </NavigationMenuLink>
                       <NavigationMenuLink asChild>
                         <Link
-                          href="/services/maritime-consulting"
+                          href="/services/project-cargo"
                           className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                         >
-                          <div className="text-sm font-medium">Maritime Consulting</div>
+                          <div className="text-sm font-medium">Project Cargo</div>
+                        </Link>
+                      </NavigationMenuLink>
+                    </div>
+                    <div className="space-y-3">
+                      <h4 className="font-medium text-sm text-slate-900 border-b pb-2">Strategic Services</h4>
+                      <NavigationMenuLink asChild>
+                        <Link
+                          href="/services/strategic-investment"
+                          className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium">Strategic Investment</div>
                         </Link>
                       </NavigationMenuLink>
                       <NavigationMenuLink asChild>
                         <Link
-                          href="/services/port-services"
+                          href="/services/export-facilitation"
                           className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                         >
-                          <div className="text-sm font-medium">Port Services</div>
+                          <div className="text-sm font-medium">Export Facilitation</div>
+                        </Link>
+                      </NavigationMenuLink>
+                      <NavigationMenuLink asChild>
+                        <Link
+                          href="/services/chartering"
+                          className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium">Chartering</div>
+                        </Link>
+                      </NavigationMenuLink>
+                      <NavigationMenuLink asChild>
+                        <Link
+                          href="/services"
+                          className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
+                        >
+                          <div className="text-sm font-medium text-blue-600">View All Services →</div>
                         </Link>
                       </NavigationMenuLink>
                     </div>

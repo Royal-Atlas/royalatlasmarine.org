@@ -42,12 +42,14 @@ export default function AboutPage() {
               <p className="text-lg leading-relaxed mb-6">
                 Driven to exceed the expectations of our customers, we take the priorities of our customers as our very
                 own by providing safe and cost-effective management of the ships – synergistically working in
-                partnership with our customers.
+                partnership with our customers. Our expertise extends from ship registry consultancy and technical management 
+                to offshore support and strategic investment services.
               </p>
               <p className="text-lg leading-relaxed">
                 At Royal Atlas, we strive for Operational Excellence. We see challenges as opportunities and enjoy
                 working diligently to make things happen. Our global presence across India, Kuwait, Australia,
-                Singapore, and Dubai ensures we can serve our clients wherever they need us.
+                Singapore, and Dubai ensures we can serve our clients wherever they need us with comprehensive 
+                maritime solutions.
               </p>
             </div>
           </div>
@@ -66,7 +68,8 @@ export default function AboutPage() {
               <CardContent>
                 <CardDescription className="text-center text-lg">
                   To provide exceptional maritime solutions that exceed customer expectations through operational
-                  excellence, safety, and innovative service delivery across global markets.
+                  excellence, safety, and innovative service delivery across global markets, including ship registry 
+                  consultancy, technical management, and strategic investment services.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -150,23 +153,61 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
-                <CardTitle className="text-slate-900">India (Headquarters)</CardTitle>
-                <CardDescription>Bangalore, Karnataka</CardDescription>
+                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
+                <CardDescription>Bengaluru, Karnataka</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2 text-sm text-gray-600">
                   <p>
-                    <strong>Address:</strong> No. 63/1, 1st Floor, K.S. Arcade, Virat Nagar Main Road, Bommanahalli,
-                    Bangalore - 560068
+                    <strong>Address:</strong> 1st Floor, K/S Arcade, Above Med Plus
                   </p>
+                  <p>Bommanahalli, Bengaluru</p>
+                  <p>Karnataka 560068</p>
                   <p>
-                    <strong>Phone:</strong> +91 9193990000
-                  </p>
-                  <p>
-                    <strong>Landline:</strong> 08041530315
+                    <strong>Phone:</strong> +91 939900000
                   </p>
                   <p>
                     <strong>License:</strong> RPSL-CHN-162280 (Director General Of Shipping, Govt. Of India Approved)
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-l-4 border-l-blue-600">
+              <CardHeader>
+                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
+                <CardDescription>Trivandrum, Kerala</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p>
+                    <strong>Address:</strong> Opp. Neyyar Residency (Old Hotel Silver Dew)
+                  </p>
+                  <p>NMC.40/527(Old.Xll/477D), Keezhekulam Lane</p>
+                  <p>Alummoodu, Neyyattinkara</p>
+                  <p>Trivandrum, Kerala - 695121</p>
+                  <p>
+                    <strong>Phone:</strong> +91 9538359000
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-l-4 border-l-blue-600">
+              <CardHeader>
+                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
+                <CardDescription>Mumbai, Maharashtra</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p>
+                    <strong>Address:</strong> Shop No-5, Ground Floor, 484/B
+                  </p>
+                  <p>Munna Villa CHS Ltd</p>
+                  <p>Gabriel Street, Near Canosa Primary School</p>
+                  <p>Mahim West, Mumbai - 400016</p>
+                  <p>
+                    <strong>Phone:</strong> +91 9483629000
                   </p>
                 </div>
               </CardContent>
@@ -215,15 +256,15 @@ export default function AboutPage() {
 
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
-                <CardTitle className="text-slate-900">Singapore</CardTitle>
-                <CardDescription>Toa Payoh</CardDescription>
+                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
+                <CardDescription>Singapore</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2 text-sm text-gray-600">
                   <p>
-                    <strong>Address:</strong> STI Motor Centre, Unit 301, 3rd Floor, 19 Lorong 8, Toa Payoh, Singapore
-                    589822
+                    <strong>Address:</strong> STI Motor Centre, Unit 301, 3rd Floor
                   </p>
+                  <p>19 Lorong 8, Toa Payoh, Singapore 589822</p>
                   <p>
                     <strong>Phone:</strong> +65 8169 7138
                   </p>
@@ -273,33 +314,18 @@ export default function AboutPage() {
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
                 <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Toa Payoh, Singapore</CardDescription>
+                <CardDescription>Dubai, UAE</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2 text-sm text-gray-600">
                   <p>
-                    <strong>Address:</strong> 185 Toa Payoh Central
+                    <strong>Address:</strong> Montana Building
                   </p>
-                  <p>#01-332, #02 Singapore 310185</p>
+                  <p>Office 110-113, Zee Beel Road</p>
+                  <p>St. Al Karama, Dubai</p>
+                  <p>United Arab Emirates</p>
                   <p>
-                    <strong>Phone:</strong> +65 9423 2850
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-l-4 border-l-blue-600">
-              <CardHeader>
-                <CardTitle className="text-slate-900">Dubai, UAE</CardTitle>
-                <CardDescription>Sheikh Zayed Road</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-sm text-gray-600">
-                  <p>
-                    <strong>Address:</strong> 8th Floor, Al Moosa Tower 2, Sheikh Zayed Road, Dubai, UAE
-                  </p>
-                  <p>
-                    <strong>Phone:</strong> +971 545 498 293, +971 545 439 263
+                    <strong>Phone:</strong> +971 545498293
                   </p>
                   <p>
                     <strong>Email:</strong> royalatlasmarine.dxb@gmail.com

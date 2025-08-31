@@ -1,5 +1,5 @@
 import React from "react"
-import { ArrowRight, Globe, Shield, Clock, Award, Anchor, Ship, Container, Truck, Star, Users } from "lucide-react"
+import { ArrowRight, Globe, Shield, Clock, Award, Anchor, Ship, Container, Truck, Star, Users, Database, Building } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
@@ -9,34 +9,47 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white py-24 lg:py-32">
+      <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white py-16 lg:py-20">
         <div className="absolute inset-0">
           <Image
             src="/hero-bg.jpg"
             alt="Maritime Hero Background"
             fill
-            className="object-cover opacity-15"
+            className="object-cover opacity-25"
             priority
           />
         </div>
-        <div className="absolute inset-0 bg-black/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center">
-            <div className="flex justify-center mb-6">
-              <div className="p-4 bg-blue-600/20 rounded-full border border-blue-400/30">
-                <Anchor className="h-12 w-12 text-blue-400" />
+          <div className="max-w-6xl mx-auto text-center">
+            {/* Logo and Brand Section */}
+            <div className="flex flex-col items-center mb-8">
+              <div className="flex items-center justify-center mb-6">
+                <div className="p-3 bg-blue-600/50 rounded-full border-2 border-blue-400/60 mr-4">
+                  <Anchor className="h-10 w-10 text-blue-200" />
+                </div>
+                <div className="text-left">
+                  <h1 className="text-xl lg:text-2xl xl:text-3xl font-bold text-white leading-tight tracking-wide">
+                    Royal Atlas Marine
+                  </h1>
+                </div>
               </div>
             </div>
-            <h1 className="text-4xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
-              Royal Atlas Marine
-            </h1>
-            <p className="text-xl lg:text-2xl mb-4 text-blue-100">QSSHE Excellence in Maritime Operations</p>
-            <p className="text-lg mb-8 text-gray-300 max-w-3xl mx-auto leading-relaxed">
+            
+            {/* Main Tagline */}
+            <h2 className="text-xl lg:text-2xl xl:text-3xl font-semibold mb-4 text-blue-100">
+              QSSHE Excellence in Maritime Operations
+            </h2>
+            
+            {/* Description */}
+            <p className="text-base lg:text-lg mb-8 text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Your Trusted Maritime Solutions Provider with global presence across India, Kuwait, Australia, Singapore,
               and Dubai. Delivering Quality, Safety, Security, Health, and Environmental excellence in every operation.
             </p>
+            
+            {/* Call to Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 shadow-lg">
                 <Link href="/services" className="flex items-center gap-2">
                   Our Services <ArrowRight className="h-5 w-5" />
                 </Link>
@@ -44,7 +57,7 @@ export default function HomePage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 bg-transparent"
+                className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 bg-transparent shadow-lg"
               >
                 <Link href="/contact">Contact Us</Link>
               </Button>
@@ -134,49 +147,48 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
-                <Ship className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-                <CardTitle className="text-slate-900">Freight Forwarding</CardTitle>
+                <Database className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <CardTitle className="text-slate-900">Ship Registry Consultancy</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Complete logistics management including documentation, customs clearance, and transportation
-                  coordination.
+                  Strategic planning and development of international ship registry operations for maritime authorities.
                 </CardDescription>
               </CardContent>
             </Card>
 
             <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
-                <Globe className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-                <CardTitle className="text-slate-900">Customs Clearance</CardTitle>
+                <Users className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <CardTitle className="text-slate-900">Crew Manning & Training</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Expert handling of import/export regulations, customs duties, and legal compliance requirements.
+                  Comprehensive crew recruitment, certification, and training services for maritime operations.
                 </CardDescription>
               </CardContent>
             </Card>
 
             <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
-                <Container className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-                <CardTitle className="text-slate-900">Container Shipping</CardTitle>
+                <Shield className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <CardTitle className="text-slate-900">Technical Management</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Secure and efficient container transportation via ships, trucks, and trains worldwide.
+                  Professional technical management ensuring vessel compliance with international standards.
                 </CardDescription>
               </CardContent>
             </Card>
 
             <Card className="bg-white hover:shadow-lg transition-shadow">
               <CardHeader className="text-center">
-                <Truck className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-                <CardTitle className="text-slate-900">Warehousing</CardTitle>
+                <Building className="h-12 w-12 text-blue-600 mx-auto mb-4" />
+                <CardTitle className="text-slate-900">Offshore Support</CardTitle>
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Comprehensive storage facilities and distribution management to final destinations.
+                  Comprehensive support services for offshore oil, gas, and renewable energy operations.
                 </CardDescription>
               </CardContent>
             </Card>
@@ -203,15 +215,50 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
-                <CardTitle className="text-slate-900">India (Headquarters)</CardTitle>
-                <CardDescription>Bangalore</CardDescription>
+                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
+                <CardDescription>Bengaluru, Karnataka</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-gray-600">
-                  License No: RPSL-CHN-162280
-                  <br />
-                  Director General Of Shipping, Govt. Of India Approved
-                </p>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p><strong>Address:</strong> 1st Floor, K/S Arcade</p>
+                  <p>Above Med Plus</p>
+                  <p>Bommanahalli, Bengaluru</p>
+                  <p>Karnataka 560068</p>
+                  <p><strong>Phone:</strong> +91 939900000</p>
+                  <p><strong>License:</strong> RPSL-CHN-162280 (Director General Of Shipping, Govt. Of India Approved)</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-l-4 border-l-blue-600">
+              <CardHeader>
+                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
+                <CardDescription>Trivandrum, Kerala</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p><strong>Address:</strong> Opp. Neyyar Residency (Old Hotel Silver Dew)</p>
+                  <p>NMC.40/527(Old.Xll/477D), Keezhekulam Lane</p>
+                  <p>Alummoodu, Neyyattinkara</p>
+                  <p>Trivandrum, Kerala - 695121</p>
+                  <p><strong>Phone:</strong> +91 9538359000</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-l-4 border-l-blue-600">
+              <CardHeader>
+                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
+                <CardDescription>Mumbai, Maharashtra</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p><strong>Address:</strong> Shop No-5, Ground Floor, 484/B</p>
+                  <p>Munna Villa CHS Ltd</p>
+                  <p>Gabriel Street, Near Canosa Primary School</p>
+                  <p>Mahim West, Mumbai - 400016</p>
+                  <p><strong>Phone:</strong> +91 9483629000</p>
+                </div>
               </CardContent>
             </Card>
 
@@ -249,11 +296,15 @@ export default function HomePage() {
 
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
-                <CardTitle className="text-slate-900">Singapore</CardTitle>
-                <CardDescription>Toa Payoh</CardDescription>
+                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
+                <CardDescription>Singapore</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-sm text-gray-600">STI Motor Centre, 19 Lorong 8</p>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p><strong>Address:</strong> STI Motor Centre, 19 Lorong 8</p>
+                  <p>Toa Payoh, Singapore</p>
+                  <p><strong>Phone:</strong> +65 9423 2850</p>
+                </div>
               </CardContent>
             </Card>
 
@@ -291,24 +342,16 @@ export default function HomePage() {
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
                 <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Toa Payoh, Singapore</CardDescription>
+                <CardDescription>Dubai, UAE</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2 text-sm text-gray-600">
-                  <p><strong>Address:</strong> 185 Toa Payoh Central</p>
-                  <p>#01-332, #02 Singapore 310185</p>
-                  <p><strong>Phone:</strong> +65 9423 2850</p>
+                  <p><strong>Address:</strong> Montana Building</p>
+                  <p>Office 110-113, Zee Beel Road</p>
+                  <p>St. Al Karama, Dubai</p>
+                  <p>United Arab Emirates</p>
+                  <p><strong>Phone:</strong> +971 545498293</p>
                 </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-l-4 border-l-blue-600">
-              <CardHeader>
-                <CardTitle className="text-slate-900">Dubai, UAE</CardTitle>
-                <CardDescription>Sheikh Zayed Road</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-gray-600">8th Floor, Al Moosa Tower 2</p>
               </CardContent>
             </Card>
           </div>
@@ -394,9 +437,9 @@ export default function HomePage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-6">QSSHE Excellence in Maritime Operations</h2>
           <p className="text-lg mb-8 max-w-3xl mx-auto text-blue-100">
-            From ship registry services to freight forwarding and customs clearance, our QSSHE-certified solutions 
-            ensure Quality, Safety, Security, Health, and Environmental compliance. Trust our experienced team to 
-            navigate the complexities of global maritime regulations.
+            From ship registry consultancy and technical management to freight forwarding and strategic investment services, 
+            our QSSHE-certified solutions ensure Quality, Safety, Security, Health, and Environmental compliance. 
+            Trust our experienced team to navigate the complexities of global maritime regulations and development.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700 px-8 py-3">

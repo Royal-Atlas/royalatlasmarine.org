@@ -1,0 +1,394 @@
+import { Flag, Ship, Globe, Shield, Clock, Users, CheckCircle, Award } from "lucide-react"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+
+export default function BelizeFlagStatePage() {
+  return (
+    <div className="min-h-screen">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white py-16 lg:py-24">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="flex justify-center mb-6">
+              <div className="p-4 bg-blue-600/20 rounded-full border border-blue-400/30">
+                <Flag className="h-12 w-12 text-blue-400" />
+              </div>
+            </div>
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6">Belize Flag State Services</h1>
+            <p className="text-xl text-blue-100 mb-8">
+              Professional flag state services for Belize-registered vessels with global compliance
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                Register Vessel
+              </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 bg-transparent"
+              >
+                Download Guide
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Key Features */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Why Choose Belize Flag State?</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Professional flag state services with deep regulatory knowledge and global expertise
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <Card className="text-center border-2 border-blue-100">
+              <CardHeader>
+                <div className="mx-auto mb-4 p-3 bg-blue-600 rounded-full w-fit">
+                  <Globe className="h-8 w-8 text-white" />
+                </div>
+                <CardTitle className="text-lg text-slate-900">Global Recognition</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription>
+                  Internationally recognized flag state with strong maritime heritage and compliance standards.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center border-2 border-blue-100">
+              <CardHeader>
+                <div className="mx-auto mb-4 p-3 bg-blue-600 rounded-full w-fit">
+                  <Clock className="h-8 w-8 text-white" />
+                </div>
+                <CardTitle className="text-lg text-slate-900">Fast Processing</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription>
+                  Expedited vessel registration and documentation processing with efficient turnaround times.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center border-2 border-blue-100">
+              <CardHeader>
+                <div className="mx-auto mb-4 p-3 bg-blue-600 rounded-full w-fit">
+                  <Shield className="h-8 w-8 text-white" />
+                </div>
+                <CardTitle className="text-lg text-slate-900">Compliance Focus</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription>
+                  Full compliance with international maritime regulations and IMO standards.
+                </CardDescription>
+              </CardContent>
+            </Card>
+
+            <Card className="text-center border-2 border-blue-100">
+              <CardHeader>
+                <div className="mx-auto mb-4 p-3 bg-blue-600 rounded-full w-fit">
+                  <Users className="h-8 w-8 text-white" />
+                </div>
+                <CardTitle className="text-lg text-slate-900">Expert Support</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <CardDescription>
+                  Dedicated support team with deep knowledge of Belize maritime regulations.
+                </CardDescription>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Services Offered */}
+      <section className="py-16 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Our Belize Flag State Services</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Comprehensive flag state services for all types of vessels and maritime operations
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="hover:shadow-lg transition-shadow border-2 border-blue-100">
+              <CardHeader>
+                <div className="flex items-center space-x-3 mb-4">
+                  <div className="p-2 bg-blue-600 rounded-lg">
+                    <Ship className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-xl text-slate-900">Vessel Registration</CardTitle>
+                    <Badge variant="secondary">Primary Service</Badge>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="mb-4">
+                  Complete vessel registration services including documentation and certification.
+                </CardDescription>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Initial registration
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Documentation preparation
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Certificate issuance
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow border-2 border-blue-100">
+              <CardHeader>
+                <div className="flex items-center space-x-3 mb-4">
+                  <div className="p-2 bg-blue-600 rounded-lg">
+                    <Flag className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-xl text-slate-900">Flag Transfer</CardTitle>
+                    <Badge variant="secondary">Vessel Transfer</Badge>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="mb-4">
+                  Smooth flag transfer services for vessels changing from other flag states.
+                </CardDescription>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Deletion certificates
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Transfer documentation
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Compliance verification
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow border-2 border-blue-100">
+              <CardHeader>
+                <div className="flex items-center space-x-3 mb-4">
+                  <div className="p-2 bg-blue-600 rounded-lg">
+                    <Shield className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-xl text-slate-900">Safety Certificates</CardTitle>
+                    <Badge variant="secondary">Compliance</Badge>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="mb-4">
+                  Safety and compliance certificates including SOLAS, MARPOL, and ISM documentation.
+                </CardDescription>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Safety certificates
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Pollution prevention
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Management systems
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow border-2 border-blue-100">
+              <CardHeader>
+                <div className="flex items-center space-x-3 mb-4">
+                  <div className="p-2 bg-blue-600 rounded-lg">
+                    <Award className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-xl text-slate-900">Crew Documentation</CardTitle>
+                    <Badge variant="secondary">Personnel</Badge>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="mb-4">
+                  Crew documentation services including seafarer certificates and endorsements.
+                </CardDescription>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Seafarer certificates
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Endorsements
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Training verification
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow border-2 border-blue-100">
+              <CardHeader>
+                <div className="flex items-center space-x-3 mb-4">
+                  <div className="p-2 bg-blue-600 rounded-lg">
+                    <Clock className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-xl text-slate-900">Annual Renewals</CardTitle>
+                    <Badge variant="secondary">Maintenance</Badge>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="mb-4">
+                  Annual renewal services for vessel certificates and compliance documentation.
+                </CardDescription>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Certificate renewals
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Compliance updates
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Documentation review
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-lg transition-shadow border-2 border-blue-100">
+              <CardHeader>
+                <div className="flex items-center space-x-3 mb-4">
+                  <div className="p-2 bg-blue-600 rounded-lg">
+                    <Users className="h-6 w-6 text-white" />
+                  </div>
+                  <div>
+                    <CardTitle className="text-xl text-slate-900">Consulting Services</CardTitle>
+                    <Badge variant="secondary">Expert Advice</Badge>
+                  </div>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <CardDescription className="mb-4">
+                  Professional consulting services for complex maritime regulatory compliance issues.
+                </CardDescription>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Regulatory guidance
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Compliance audits
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle className="h-4 w-4 text-green-500 mr-2" />
+                    Risk assessment
+                  </li>
+                </ul>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Flow */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-slate-900 mb-4">Our Registration Process</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Streamlined process ensuring efficient and compliant vessel registration
+            </p>
+          </div>
+          <div className="max-w-4xl mx-auto">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  1
+                </div>
+                <h3 className="text-xl font-semibold text-slate-900 mb-2">Application</h3>
+                <p className="text-gray-600">
+                  Initial application submission with required vessel and ownership documentation.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  2
+                </div>
+                <h3 className="text-xl font-semibold text-slate-900 mb-2">Review</h3>
+                <p className="text-gray-600">
+                  Comprehensive review of all documentation and compliance verification.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  3
+                </div>
+                <h3 className="text-xl font-semibold text-slate-900 mb-2">Approval</h3>
+                <p className="text-gray-600">
+                  Official approval and certificate issuance for vessel registration.
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+                  4
+                </div>
+                <h3 className="text-xl font-semibold text-slate-900 mb-2">Delivery</h3>
+                <p className="text-gray-600">
+                  Final delivery of all certificates and documentation to vessel owners.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-gradient-to-r from-slate-900 to-blue-900 text-white">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-6">Ready to Register Your Vessel?</h2>
+          <p className="text-lg mb-8 max-w-2xl mx-auto text-blue-100">
+            Trust our experienced team to handle your Belize flag state registration with professionalism and compliance.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button size="lg" className="bg-blue-600 hover:bg-blue-700 px-8 py-3">
+              <Link href="/contact">Get Started Today</Link>
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-white text-white hover:bg-white hover:text-slate-900 px-8 py-3 bg-transparent"
+            >
+              <Link href="/flag-states">View All Flag States</Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}

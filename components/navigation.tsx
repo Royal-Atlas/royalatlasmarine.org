@@ -330,14 +330,6 @@ export function Navigation() {
                       <h4 className="font-medium text-sm text-slate-900 border-b pb-2">Asia Pacific</h4>
                       <NavigationMenuLink asChild>
                         <Link
-                          href="/offices/india"
-                          className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
-                        >
-                          <div className="text-sm font-medium">India</div>
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link
                           href="/offices/singapore"
                           className="block select-none space-y-1 rounded-md p-2 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground"
                         >

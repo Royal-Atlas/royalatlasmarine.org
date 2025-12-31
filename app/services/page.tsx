@@ -380,53 +380,6 @@ export default function ServicesPage() {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="border-l-4 border-l-blue-600">
-              <CardHeader>
-                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Bengaluru, Karnataka</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-sm text-gray-600">
-                  <p><strong>Address:</strong> 1st Floor, K/S Arcade</p>
-                  <p>Above Med Plus</p>
-                  <p>Bommanahalli, Bengaluru</p>
-                  <p>Karnataka 560068</p>
-                  <p><strong>Phone:</strong> +91 939900000</p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-l-4 border-l-blue-600">
-              <CardHeader>
-                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Trivandrum, Kerala</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-sm text-gray-600">
-                  <p><strong>Address:</strong> Opp. Neyyar Residency (Old Hotel Silver Dew)</p>
-                  <p>NMC.40/527(Old.Xll/477D), Keezhekulam Lane</p>
-                  <p>Alummoodu, Neyyattinkara</p>
-                  <p>Trivandrum, Kerala - 695121</p>
-                  <p><strong>Phone:</strong> +91 9538359000</p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-l-4 border-l-blue-600">
-              <CardHeader>
-                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Mumbai, Maharashtra</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-sm text-gray-600">
-                  <p><strong>Address:</strong> Shop No-5, Ground Floor, 484/B</p>
-                  <p>Munna Villa CHS Ltd</p>
-                  <p>Gabriel Street, Near Canosa Primary School</p>
-                  <p>Mahim West, Mumbai - 400016</p>
-                  <p><strong>Phone:</strong> +91 9483629000</p>
-                </div>
-              </CardContent>
-            </Card>
 
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
@@ -518,6 +471,22 @@ export default function ServicesPage() {
                   <p>Sharjah UAE</p>
                   <p><strong>Phone:</strong> +971 545498293</p>
                   <p>+971 585637900</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-l-4 border-l-blue-600">
+              <CardHeader>
+                <CardTitle className="text-slate-900">Royal Atlas Marine</CardTitle>
+                <CardDescription>Trivandrum</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p><strong>Address:</strong> Amaura Building (2nd Floor)</p>
+                  <p>M. P 1/46C, Near HDFC BANK</p>
+                  <p>Peyad po Trivandrum</p>
+                  <p>695573</p>
+                  <p><strong>Phone:</strong> +91 9538359000</p>
                 </div>
               </CardContent>
             </Card>

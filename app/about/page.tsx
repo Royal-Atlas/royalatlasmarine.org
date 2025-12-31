@@ -35,7 +35,7 @@ export default function AboutPage() {
             <div className="prose prose-lg max-w-none text-gray-600">
               <p className="text-lg leading-relaxed mb-6">
                 Royal Atlas Services has a highly qualified and well-experienced management team from the Marine
-                Industry. All our offices in India are staffed by highly experienced officials with international and
+                Industry. All our offices are staffed by highly experienced officials with international and
                 local expertise who are adept and fully trained to handle the highly challenging shipping and freight
                 environment.
               </p>
@@ -47,7 +47,7 @@ export default function AboutPage() {
               </p>
               <p className="text-lg leading-relaxed">
                 At Royal Atlas, we strive for Operational Excellence. We see challenges as opportunities and enjoy
-                working diligently to make things happen. Our global presence across India, Kuwait, Australia,
+                working diligently to make things happen. Our global presence across Kuwait, Australia,
                 Singapore, and Sharjah ensures we can serve our clients wherever they need us with comprehensive 
                 maritime solutions.
               </p>
@@ -151,67 +151,6 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Global Presence</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="border-l-4 border-l-blue-600">
-              <CardHeader>
-                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Bengaluru, Karnataka</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-sm text-gray-600">
-                  <p>
-                    <strong>Address:</strong> 1st Floor, K/S Arcade, Above Med Plus
-                  </p>
-                  <p>Bommanahalli, Bengaluru</p>
-                  <p>Karnataka 560068</p>
-                  <p>
-                    <strong>Phone:</strong> +91 939900000
-                  </p>
-                  <p>
-                    <strong>License:</strong> RPSL-CHN-162280 (Director General Of Shipping, Govt. Of India Approved)
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-l-4 border-l-blue-600">
-              <CardHeader>
-                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Trivandrum, Kerala</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-sm text-gray-600">
-                  <p>
-                    <strong>Address:</strong> Opp. Neyyar Residency (Old Hotel Silver Dew)
-                  </p>
-                  <p>NMC.40/527(Old.Xll/477D), Keezhekulam Lane</p>
-                  <p>Alummoodu, Neyyattinkara</p>
-                  <p>Trivandrum, Kerala - 695121</p>
-                  <p>
-                    <strong>Phone:</strong> +91 9538359000
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-l-4 border-l-blue-600">
-              <CardHeader>
-                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Mumbai, Maharashtra</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-sm text-gray-600">
-                  <p>
-                    <strong>Address:</strong> Shop No-5, Ground Floor, 484/B
-                  </p>
-                  <p>Munna Villa CHS Ltd</p>
-                  <p>Gabriel Street, Near Canosa Primary School</p>
-                  <p>Mahim West, Mumbai - 400016</p>
-                  <p>
-                    <strong>Phone:</strong> +91 9483629000
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
 
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
@@ -328,6 +267,26 @@ export default function AboutPage() {
                     <strong>Phone:</strong> +971 545498293
                   </p>
                   <p>+971 585637900</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-l-4 border-l-blue-600">
+              <CardHeader>
+                <CardTitle className="text-slate-900">Royal Atlas Marine</CardTitle>
+                <CardDescription>Trivandrum</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="space-y-2 text-sm text-gray-600">
+                  <p>
+                    <strong>Address:</strong> Amaura Building (2nd Floor)
+                  </p>
+                  <p>M. P 1/46C, Near HDFC BANK</p>
+                  <p>Peyad po Trivandrum</p>
+                  <p>695573</p>
+                  <p>
+                    <strong>Phone:</strong> +91 9538359000
+                  </p>
                 </div>
               </CardContent>
             </Card>

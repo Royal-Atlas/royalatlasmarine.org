@@ -56,16 +56,6 @@ export default function TestimonialsPage() {
       industry: "Dry Bulk",
     },
     {
-      name: "Rajesh Patel",
-      title: "Managing Director",
-      company: "Indian Ocean Shipping",
-      country: "India",
-      rating: 5,
-      text: "As a government-approved service provider, Royal Atlas Marine has consistently delivered exceptional results for our public sector projects. Their DG Shipping compliance record is impeccable.",
-      project: "Government Maritime Projects",
-      industry: "Public Sector",
-    },
-    {
       name: "Jennifer Williams",
       title: "VP Maritime Operations",
       company: "Atlantic Container Lines",
@@ -174,16 +164,6 @@ export default function TestimonialsPage() {
       text: "Royal Atlas Marine's specialized ice-class vessel management has enabled our Arctic operations. Their cold weather expertise is unparalleled in the industry.",
       project: "Arctic Shipping Operations",
       industry: "Specialized Shipping",
-    },
-    {
-      name: "Priya Sharma",
-      title: "Director Maritime Affairs",
-      company: "Indian Offshore Energy",
-      country: "India",
-      rating: 5,
-      text: "Royal Atlas Marine's offshore support vessel management has been critical to our oil exploration projects. Their safety record is exemplary.",
-      project: "Offshore Support Vessels",
-      industry: "Offshore Energy",
     },
     {
       name: "Jean-Pierre Dubois",
@@ -369,7 +349,7 @@ export default function TestimonialsPage() {
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Trusted partner for government maritime projects across India, UAE, Kuwait, Singapore, and Australia.
+                  Trusted partner for government maritime projects across UAE, Kuwait, Singapore, and Australia.
                 </CardDescription>
               </CardContent>
             </Card>

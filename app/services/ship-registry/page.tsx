@@ -514,28 +514,6 @@ export default function ShipRegistryPage() {
               </CardContent>
             </Card>
 
-            <Card className="border-l-4 border-l-blue-600">
-              <CardHeader>
-                <CardTitle className="text-slate-900">DG Shipping India</CardTitle>
-                <CardDescription>Director General of Shipping Services</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-3 text-sm text-gray-600">
-                  <p>
-                    <strong>License:</strong> RPSL-CHN-162280
-                  </p>
-                  <p>
-                    <strong>Services:</strong> Survey and inspection services
-                  </p>
-                  <p>
-                    <strong>Compliance:</strong> Indian maritime regulations
-                  </p>
-                  <p>
-                    <strong>Authority:</strong> Government of India approved
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
 
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>

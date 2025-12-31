@@ -292,7 +292,7 @@ export default function SubsidiariesPage() {
                     <strong>Main Office:</strong> Sharjah, UAE
                   </p>
                   <p>
-                    <strong>Regional Offices:</strong> India, Singapore, Australia
+                    <strong>Regional Offices:</strong> Singapore, Australia
                   </p>
                   <p>
                     <strong>Services:</strong> Full spectrum maritime services

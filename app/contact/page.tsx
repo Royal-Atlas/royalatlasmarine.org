@@ -109,7 +109,7 @@ export default function ContactPage() {
                 <CardHeader>
                   <div className="flex items-center space-x-3">
                     <MapPin className="h-6 w-6 text-blue-600" />
-                    <CardTitle className="text-xl text-slate-900">Royal Atlas Group</CardTitle>
+                    <CardTitle className="text-xl text-slate-900">Royal Atlas marine LLC SHJ -Branch</CardTitle>
                   </div>
                 </CardHeader>
                 <CardContent>
@@ -117,29 +117,26 @@ export default function ContactPage() {
                     <p>
                       <strong>Address:</strong>
                       <br />
-                      1st Floor, K/S Arcade, Above Med Plus
+                      Al Nayeli 16
                       <br />
-                      Bommanahalli, Bengaluru
+                      89CQ+3F9 , Al Wahda st Al Darari
                       <br />
-                      Karnataka 560068, India
+                      Commercial: Industrial area
+                      <br />
+                      Sharjah UAE
                     </p>
                     <div className="flex items-center space-x-2">
                       <Phone className="h-4 w-4 text-blue-600" />
-                      <span>+91 939900000</span>
+                      <div>
+                        <div>+971 545498293</div>
+                        <div>+971 585637900</div>
+                      </div>
                     </div>
                     <div className="flex items-start space-x-2">
                       <Mail className="h-4 w-4 text-blue-600 mt-0.5" />
                       <div>
                         <div>info@royalatlasmarine.com</div>
-                        <div>royalatlasmarinepvtltd@gmail.com</div>
                       </div>
-                    </div>
-                    <div className="bg-blue-50 p-3 rounded-lg">
-                      <p className="text-sm font-medium text-blue-800">
-                        License No: RPSL-CHN-162280
-                        <br />
-                        Director General Of Shipping, Govt. Of India Approved
-                      </p>
                     </div>
                   </div>
                 </CardContent>
@@ -154,30 +151,6 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
-                    <div>
-                      <h4 className="font-semibold text-slate-900">Trivandrum, Kerala</h4>
-                      <p className="text-sm text-gray-600">
-                        Opp. Neyyar Residency (Old Hotel Silver Dew)
-                        <br />
-                        NMC.40/527(Old.Xll/477D), Keezhekulam Lane
-                        <br />
-                        Alummoodu, Neyyattinkara, Trivandrum - 695121
-                        <br />
-                        Tel: +91 9538359000
-                      </p>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-slate-900">Mumbai, Maharashtra</h4>
-                      <p className="text-sm text-gray-600">
-                        Shop No-5, Ground Floor, 484/B
-                        <br />
-                        Munna Villa CHS Ltd, Gabriel Street
-                        <br />
-                        Near Canosa Primary School, Mahim West - 400016
-                        <br />
-                        Tel: +91 9483629000
-                      </p>
-                    </div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Kuwait</h4>
                       <p className="text-sm text-gray-600">
@@ -246,6 +219,20 @@ export default function ContactPage() {
                         +971 585637900
                       </p>
                     </div>
+                    <div>
+                      <h4 className="font-semibold text-slate-900">Royal Atlas Marine - Trivandrum</h4>
+                      <p className="text-sm text-gray-600">
+                        Amaura Building (2nd Floor)
+                        <br />
+                        M. P 1/46C, Near HDFC BANK
+                        <br />
+                        Peyad po Trivandrum
+                        <br />
+                        695573
+                        <br />
+                        Tel: +91 9538359000
+                      </p>
+                    </div>
                   </div>
                 </CardContent>
               </Card>
@@ -283,18 +270,20 @@ export default function ContactPage() {
       {/* Map Section */}
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Find Our Headquarters</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-8 text-center">Find Our Main Office</h2>
           <div className="max-w-4xl mx-auto">
             <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
               <div className="text-center text-gray-600">
                 <MapPin className="h-12 w-12 mx-auto mb-4" />
                 <p className="text-lg font-medium">Interactive Map</p>
                 <p className="text-sm">
-                  1st Floor, K/S Arcade, Above Med Plus
+                  Royal Atlas marine LLC SHJ -Branch
                   <br />
-                  Bommanahalli, Bengaluru
+                  Al Nayeli 16
                   <br />
-                  Karnataka 560068, India
+                  89CQ+3F9 , Al Wahda st Al Darari
+                  <br />
+                  Commercial: Industrial area, Sharjah UAE
                 </p>
               </div>
             </div>

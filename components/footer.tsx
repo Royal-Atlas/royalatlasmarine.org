@@ -125,33 +125,36 @@ export function Footer() {
                   Sharjah UAE
                 </div>
               </div>
+              <div className="flex items-start space-x-3 mt-3">
+                <MapPin className="h-5 w-5 text-blue-400 mt-0.5 flex-shrink-0" />
+                <div className="text-sm text-gray-300">
+                  <div className="font-medium text-white">Trivandrum</div>
+                  Royal Atlas Marine
+                  <br />
+                  Amaura Building (2nd Floor)
+                  <br />
+                  M. P 1/46C, Near HDFC BANK
+                  <br />
+                  Peyad po Trivandrum
+                  <br />
+                  695573
+                </div>
+              </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
                 <div className="text-sm text-gray-300">
                   <div>+971 545498293</div>
                   <div>+971 585637900</div>
+                  <div>+91 9538359000</div>
                 </div>
               </div>
               <div className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-blue-400 mt-0.5" />
                 <div className="text-sm text-gray-300">
                   <div>info@royalatlasmarine.com</div>
-                  <div>royalatlasmarinepvtltd@gmail.com</div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* License Information */}
-        <div className="border-t border-gray-700 mt-8 pt-8">
-          <div className="bg-blue-900/30 rounded-lg p-4 mb-6">
-            <h4 className="text-lg font-semibold text-white mb-2">Official License</h4>
-            <p className="text-blue-200 text-sm">
-              <strong>License No:</strong> RPSL-CHN-162280
-              <br />
-              <strong>Issued by:</strong> Director General Of Shipping, Government of India
-            </p>
           </div>
         </div>
 

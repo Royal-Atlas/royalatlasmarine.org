@@ -270,26 +270,6 @@ export default function AboutPage() {
                 </div>
               </CardContent>
             </Card>
-
-            <Card className="border-l-4 border-l-blue-600">
-              <CardHeader>
-                <CardTitle className="text-slate-900">Royal Atlas Marine</CardTitle>
-                <CardDescription>Trivandrum</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="space-y-2 text-sm text-gray-600">
-                  <p>
-                    <strong>Address:</strong> Amaura Building (2nd Floor)
-                  </p>
-                  <p>M. P 1/46C, Near HDFC BANK</p>
-                  <p>Peyad po Trivandrum</p>
-                  <p>695573</p>
-                  <p>
-                    <strong>Phone:</strong> +91 9538359000
-                  </p>
-                </div>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>

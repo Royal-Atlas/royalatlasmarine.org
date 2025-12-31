@@ -220,17 +220,19 @@ export default function ContactPage() {
                       </p>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-900">Royal Atlas Marine - Trivandrum</h4>
+                      <h4 className="font-semibold text-slate-900">Royal Atlas Marine</h4>
                       <p className="text-sm text-gray-600">
                         Amaura Building (2nd Floor)
                         <br />
-                        M. P 1/46C, Near HDFC BANK
+                        M. P 1/46C
+                        <br />
+                        Near HDFC BANK
                         <br />
                         Peyad po Trivandrum
                         <br />
                         695573
                         <br />
-                        Tel: +91 9538359000
+                        PH: +91 9538359000
                       </p>
                     </div>
                   </div>

@@ -125,27 +125,11 @@ export function Footer() {
                   Sharjah UAE
                 </div>
               </div>
-              <div className="flex items-start space-x-3 mt-3">
-                <MapPin className="h-5 w-5 text-blue-400 mt-0.5 flex-shrink-0" />
-                <div className="text-sm text-gray-300">
-                  <div className="font-medium text-white">Trivandrum</div>
-                  Royal Atlas Marine
-                  <br />
-                  Amaura Building (2nd Floor)
-                  <br />
-                  M. P 1/46C, Near HDFC BANK
-                  <br />
-                  Peyad po Trivandrum
-                  <br />
-                  695573
-                </div>
-              </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
                 <div className="text-sm text-gray-300">
                   <div>+971 545498293</div>
                   <div>+971 585637900</div>
-                  <div>+91 9538359000</div>
                 </div>
               </div>
               <div className="flex items-start space-x-3">

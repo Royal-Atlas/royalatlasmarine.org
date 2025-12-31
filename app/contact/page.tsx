@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock, Globe } from "lucide-react"
+import { MapPin, Phone, Clock, Globe } from "lucide-react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -132,12 +132,6 @@ export default function ContactPage() {
                         <div>+971 585637900</div>
                       </div>
                     </div>
-                    <div className="flex items-start space-x-2">
-                      <Mail className="h-4 w-4 text-blue-600 mt-0.5" />
-                      <div>
-                        <div>info@royalatlasmarine.com</div>
-                      </div>
-                    </div>
                   </div>
                 </CardContent>
               </Card>
@@ -156,51 +150,57 @@ export default function ContactPage() {
                       <p className="text-sm text-gray-600">
                         Al Dabbous Mall, Behind Crown Plaza
                         <br />
-                        Habib Munawar Street, PO BOX # 18478
+                        Habib Munawar Street
                         <br />
-                        Farwaniyah - 81005, Kuwait
+                        PO Box: 18478, Farwaniyah - 81005, Kuwait
                         <br />
-                        Tel: +965 5657000
+                        Phone: +965 5657000
                       </p>
                     </div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Australia</h4>
                       <p className="text-sm text-gray-600">
-                        84 Hotham Street, Preston 3072
+                        84 Hotham Street
+                        <br />
+                        Preston 3072
                         <br />
                         Melbourne, Victoria, Australia
                         <br />
-                        Tel: +61 468 408 732
+                        Phone: +61 468 408 732
                       </p>
                     </div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Singapore</h4>
                       <p className="text-sm text-gray-600">
-                        STI Motor Centre, 19 Lorong 8
+                        STI Motor Centre, Unit 301, 3rd Floor
                         <br />
-                        Toa Payoh, Singapore
+                        19 Lorong 8, Toa Payoh, Singapore 589822
                         <br />
-                        Tel: +65 9423 2850
+                        Phone: +65 8169 7138
                       </p>
                     </div>
                     <div>
                       <h4 className="font-semibold text-slate-900">United Kingdom</h4>
                       <p className="text-sm text-gray-600">
-                        54A High Street, Deal, Kent
+                        54A High Street
+                        <br />
+                        Deal, Kent
                         <br />
                         CT14 6HE, United Kingdom
                         <br />
-                        Tel: +44 771 715 1977
+                        Phone: +44 771 715 1977
                       </p>
                     </div>
                     <div>
                       <h4 className="font-semibold text-slate-900">Bahrain</h4>
                       <p className="text-sm text-gray-600">
-                        Shop No: 21, Building 1007, Street 1821
+                        Shop No: 21
+                        <br />
+                        Building 1007, Street 1821
                         <br />
                         Block 718, Zayed Town, Bahrain
                         <br />
-                        Tel: +973 3234 3592
+                        Phone: +973 3234 3592
                       </p>
                     </div>
                     <div>
@@ -214,7 +214,7 @@ export default function ContactPage() {
                         <br />
                         Sharjah UAE
                         <br />
-                        Tel: +971 545498293
+                        Phone: +971 545498293
                         <br />
                         +971 585637900
                       </p>

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Anchor, Mail, Phone, MapPin } from "lucide-react"
+import { Anchor, Phone, MapPin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -130,12 +130,6 @@ export function Footer() {
                 <div className="text-sm text-gray-300">
                   <div>+971 545498293</div>
                   <div>+971 585637900</div>
-                </div>
-              </div>
-              <div className="flex items-start space-x-3">
-                <Mail className="h-5 w-5 text-blue-400 mt-0.5" />
-                <div className="text-sm text-gray-300">
-                  <div>info@royalatlasmarine.com</div>
                 </div>
               </div>
             </div>

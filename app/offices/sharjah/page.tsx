@@ -1,4 +1,4 @@
-import { Building, MapPin, Phone, Mail, Globe, Users, Award, Clock, CheckCircle } from "lucide-react"
+import { Building, MapPin, Phone, Globe, Users, Award, Clock, CheckCircle } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -69,15 +69,6 @@ export default function SharjahOfficePage() {
                         +971 545498293<br />
                         +971 585637900
                       </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start space-x-4">
-                    <div className="p-3 bg-blue-600 rounded-lg">
-                      <Mail className="h-6 w-6 text-white" />
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold text-slate-900 mb-2">Email</h3>
-                      <p className="text-gray-600">info@royalatlasmarine.com</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">

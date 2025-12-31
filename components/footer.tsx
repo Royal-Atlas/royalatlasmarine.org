@@ -113,19 +113,23 @@ export function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-blue-400 mt-0.5 flex-shrink-0" />
                 <div className="text-sm text-gray-300">
-                  <div className="font-medium text-white">India (Headquarters)</div>
-                  No. 63/1, 1st Floor, K.S. Arcade,
+                  <div className="font-medium text-white">Sharjah, UAE (Main Office)</div>
+                  Royal Atlas marine LLC SHJ -Branch
                   <br />
-                  Virat Nagar Main Road, Bommanahalli,
+                  Al Nayeli 16
                   <br />
-                  Bangalore - 560068
+                  89CQ+3F9 , Al Wahda st Al Darari
+                  <br />
+                  Commercial: Industrial area
+                  <br />
+                  Sharjah UAE
                 </div>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400" />
                 <div className="text-sm text-gray-300">
-                  <div>+91 9193990000</div>
-                  <div>08041530315</div>
+                  <div>+971 545498293</div>
+                  <div>+971 585637900</div>
                 </div>
               </div>
               <div className="flex items-start space-x-3">

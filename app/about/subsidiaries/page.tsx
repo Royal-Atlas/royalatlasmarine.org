@@ -289,10 +289,10 @@ export default function SubsidiariesPage() {
               <CardContent>
                 <div className="space-y-2 text-sm text-gray-600">
                   <p>
-                    <strong>Headquarters:</strong> Bangalore, India
+                    <strong>Main Office:</strong> Sharjah, UAE
                   </p>
                   <p>
-                    <strong>Regional Offices:</strong> Singapore, Australia
+                    <strong>Regional Offices:</strong> India, Singapore, Australia
                   </p>
                   <p>
                     <strong>Services:</strong> Full spectrum maritime services

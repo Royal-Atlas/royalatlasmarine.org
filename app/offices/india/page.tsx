@@ -18,7 +18,7 @@ export default function IndiaOfficePage() {
             </div>
             <h1 className="text-4xl lg:text-5xl font-bold mb-6">Royal Atlas Marine - India</h1>
             <p className="text-xl text-blue-100 mb-8">
-              Headquarters office providing comprehensive maritime services across the Indian subcontinent
+              Regional office providing comprehensive maritime services across the Indian subcontinent
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
@@ -41,7 +41,7 @@ export default function IndiaOfficePage() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-slate-900 mb-6">Our India Headquarters</h2>
+              <h2 className="text-3xl font-bold text-slate-900 mb-6">Our India Office</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Located in the heart of Bengaluru, our India office serves as the central hub for Royal Atlas Marine's 
                 operations across the Indian subcontinent. We provide comprehensive maritime services including ship 

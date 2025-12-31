@@ -1,4 +1,3 @@
-import React from "react"
 import { ArrowRight, Globe, Shield, Clock, Award, Anchor, Ship, Container, Truck, Star, Users, Database, Building } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
@@ -44,7 +43,7 @@ export default function HomePage() {
             {/* Description */}
             <p className="text-base lg:text-lg mb-8 text-gray-200 max-w-4xl mx-auto leading-relaxed">
               Your Trusted Maritime Solutions Provider with global presence across India, Kuwait, Australia, Singapore,
-              and Dubai. Delivering Quality, Safety, Security, Health, and Environmental excellence in every operation.
+              and Sharjah. Delivering Quality, Safety, Security, Health, and Environmental excellence in every operation.
             </p>
             
             {/* Call to Action Buttons */}
@@ -341,16 +340,17 @@ export default function HomePage() {
 
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
-                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Dubai, UAE</CardDescription>
+                <CardTitle className="text-slate-900">Royal Atlas marine LLC SHJ -Branch</CardTitle>
+                <CardDescription>Sharjah, UAE</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2 text-sm text-gray-600">
-                  <p><strong>Address:</strong> Montana Building</p>
-                  <p>Office 110-113, Zee Beel Road</p>
-                  <p>St. Al Karama, Dubai</p>
-                  <p>United Arab Emirates</p>
+                  <p><strong>Address:</strong> Al Nayeli 16</p>
+                  <p>89CQ+3F9 , Al Wahda st Al Darari</p>
+                  <p>Commercial: Industrial area</p>
+                  <p>Sharjah UAE</p>
                   <p><strong>Phone:</strong> +971 545498293</p>
+                  <p>+971 585637900</p>
                 </div>
               </CardContent>
             </Card>

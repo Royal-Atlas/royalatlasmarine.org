@@ -48,7 +48,7 @@ export default function AboutPage() {
               <p className="text-lg leading-relaxed">
                 At Royal Atlas, we strive for Operational Excellence. We see challenges as opportunities and enjoy
                 working diligently to make things happen. Our global presence across India, Kuwait, Australia,
-                Singapore, and Dubai ensures we can serve our clients wherever they need us with comprehensive 
+                Singapore, and Sharjah ensures we can serve our clients wherever they need us with comprehensive 
                 maritime solutions.
               </p>
             </div>
@@ -313,23 +313,21 @@ export default function AboutPage() {
 
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
-                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Dubai, UAE</CardDescription>
+                <CardTitle className="text-slate-900">Royal Atlas marine LLC SHJ -Branch</CardTitle>
+                <CardDescription>Sharjah, UAE</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2 text-sm text-gray-600">
                   <p>
-                    <strong>Address:</strong> Montana Building
+                    <strong>Address:</strong> Al Nayeli 16
                   </p>
-                  <p>Office 110-113, Zee Beel Road</p>
-                  <p>St. Al Karama, Dubai</p>
-                  <p>United Arab Emirates</p>
+                  <p>89CQ+3F9 , Al Wahda st Al Darari</p>
+                  <p>Commercial: Industrial area</p>
+                  <p>Sharjah UAE</p>
                   <p>
                     <strong>Phone:</strong> +971 545498293
                   </p>
-                  <p>
-                    <strong>Email:</strong> royalatlasmarine.dxb@gmail.com
-                  </p>
+                  <p>+971 585637900</p>
                 </div>
               </CardContent>
             </Card>
@@ -337,73 +335,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-slate-900 mb-12 text-center">Our Leadership Team</h2>
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <Card className="text-center border-2 border-blue-100">
-              <CardHeader>
-                <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
-                  <Image
-                    src="/team/team-1.jpg"
-                    alt="Team Member 1"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <CardTitle className="text-xl text-slate-900">Captain James Wilson</CardTitle>
-                <CardDescription className="text-blue-600 font-medium">CEO & Founder</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Over 25 years of maritime experience with expertise in ship management and international operations.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center border-2 border-blue-100">
-              <CardHeader>
-                <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
-                  <Image
-                    src="/team/team-2.jpg"
-                    alt="Team Member 2"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <CardTitle className="text-xl text-slate-900">Sarah Chen</CardTitle>
-                <CardDescription className="text-blue-600 font-medium">Operations Director</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Specialized in logistics optimization and global supply chain management across multiple continents.
-                </CardDescription>
-              </CardContent>
-            </Card>
-
-            <Card className="text-center border-2 border-blue-100">
-              <CardHeader>
-                <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden">
-                  <Image
-                    src="/team/team-3.jpg"
-                    alt="Team Member 3"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <CardTitle className="text-xl text-slate-900">Ahmed Al-Rashid</CardTitle>
-                <CardDescription className="text-blue-600 font-medium">Technical Manager</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <CardDescription>
-                  Expert in vessel technical management and compliance with international maritime regulations.
-                </CardDescription>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
     </div>
   )
 }

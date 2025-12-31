@@ -507,16 +507,17 @@ export default function ServicesPage() {
 
             <Card className="border-l-4 border-l-blue-600">
               <CardHeader>
-                <CardTitle className="text-slate-900">Royal Atlas Group</CardTitle>
-                <CardDescription>Dubai, UAE</CardDescription>
+                <CardTitle className="text-slate-900">Royal Atlas marine LLC SHJ -Branch</CardTitle>
+                <CardDescription>Sharjah, UAE</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="space-y-2 text-sm text-gray-600">
-                  <p><strong>Address:</strong> Montana Building</p>
-                  <p>Office 110-113, Zee Beel Road</p>
-                  <p>St. Al Karama, Dubai</p>
-                  <p>United Arab Emirates</p>
+                  <p><strong>Address:</strong> Al Nayeli 16</p>
+                  <p>89CQ+3F9 , Al Wahda st Al Darari</p>
+                  <p>Commercial: Industrial area</p>
+                  <p>Sharjah UAE</p>
                   <p><strong>Phone:</strong> +971 545498293</p>
+                  <p>+971 585637900</p>
                 </div>
               </CardContent>
             </Card>

@@ -231,17 +231,19 @@ export default function ContactPage() {
                       </p>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-slate-900">Dubai, UAE</h4>
+                      <h4 className="font-semibold text-slate-900">Royal Atlas marine LLC SHJ -Branch</h4>
                       <p className="text-sm text-gray-600">
-                        Montana Building, Office 110-113
+                        Al Nayeli 16
                         <br />
-                        Zee Beel Road, St. Al Karama
+                        89CQ+3F9 , Al Wahda st Al Darari
                         <br />
-                        Dubai, United Arab Emirates
+                        Commercial: Industrial area
+                        <br />
+                        Sharjah UAE
                         <br />
                         Tel: +971 545498293
                         <br />
-                        Email: royalatlasmarine.dxb@gmail.com
+                        +971 585637900
                       </p>
                     </div>
                   </div>

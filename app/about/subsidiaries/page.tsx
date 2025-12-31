@@ -312,7 +312,7 @@ export default function SubsidiariesPage() {
               <CardContent>
                 <div className="space-y-2 text-sm text-gray-600">
                   <p>
-                    <strong>Primary Office:</strong> Dubai, UAE
+                    <strong>Primary Office:</strong> Sharjah, UAE
                   </p>
                   <p>
                     <strong>Secondary Office:</strong> Kuwait
